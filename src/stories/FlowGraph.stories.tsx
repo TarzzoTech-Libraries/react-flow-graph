@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "@mui/material/styles";
 import { Story, Meta } from "@storybook/react";
-import { ParentNode, ParentNodeProps, ChildNode } from "../components";
+import { ParentNode, ParentNodeProps, ChildNode } from "../index";
 
 export default {
   title: "Example/FlowGraph",
