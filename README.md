@@ -77,8 +77,7 @@ Use Value as a custom component for custom designs
 import React from "react";
 import { OrgChartData, OrgChart } from "react-flow-graph";
 
-const Component = (props: any) => {
-  console.log(props, "------------");
+const Component = () => {
   return (
     <div style={{ background: "black", color: "white" }}>Sr Director 1</div>
   );
@@ -146,7 +145,7 @@ Accepts the following props:
 
 MIT © [vijaydeepak-tt](https://github.com/vijaydeepak-tt)
 
-### Inspired from:
+## Inspired from
 
 The code and design reference is taken from [react-organizational-chart](https://github.com/daniel-hauser/react-organizational-chart) for building the base of this library.
 

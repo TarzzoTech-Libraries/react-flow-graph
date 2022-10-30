@@ -1,6 +1,6 @@
 {
   "name": "react-flow-graph",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A flow graph react component library for react applications.",
   "scripts": {
     "build": "rollup -c",
@@ -54,5 +54,9 @@
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.11"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/TarzzoTech-Libraries"
+  },
+  "homepage": "http://TarzzoTech-Libraries.github.io/react-flow-graph"
 }
