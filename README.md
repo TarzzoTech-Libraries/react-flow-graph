@@ -145,7 +145,7 @@ Accepts the following props:
 
 ## License
 
-MIT © [vijaydeepak-tt](https://github.com/vijaydeepak-tt)
+MIT © [TarzzoTech](https://github.com/TarzzoTech-Libraries)
 
 ## Inspired from
 
