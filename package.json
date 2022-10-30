@@ -11,8 +11,8 @@
     "deploy-storybook": "gh-pages -d storybook-static"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Vijay Deepak",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
@@ -58,8 +58,12 @@
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.11"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/TarzzoTech-Libraries"
+  "homepage": "http://TarzzoTech-Libraries.github.io/react-flow-graph",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TarzzoTech-Libraries/react-flow-graph.git"
   },
-  "homepage": "http://TarzzoTech-Libraries.github.io/react-flow-graph"
+  "bugs": {
+    "url": "https://github.com/TarzzoTech-Libraries/react-flow-graph/issues"
+  }
 }
