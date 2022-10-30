@@ -10,6 +10,8 @@ npm install --save react-flow-graph
 
 ## Usage
 
+Demo [here](https://tarzzotech-libraries.github.io/react-flow-graph/)
+
 1. Code Node component usage
 
 ```jsx
