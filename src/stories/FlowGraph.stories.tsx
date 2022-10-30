@@ -13,7 +13,18 @@ export default {
 } as Meta;
 
 export const Basic: Story<ParentNodeProps> = (args) => (
-  <ParentNode {...args} children={getNodes()} />
+  <ParentNode
+    {...args}
+    children={[
+      <>
+        <ChildNode element={<div>Child 1</div>}>
+          <ChildNode element={<div>Grand Child 1</div>} />
+          <ChildNode element={<div>Grand Child 2</div>} />
+        </ChildNode>
+        <ChildNode element={<div>Child 2</div>} />
+      </>,
+    ]}
+  />
 );
 Basic.args = {
   element: "Root",
