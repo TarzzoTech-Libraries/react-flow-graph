@@ -10,7 +10,11 @@
     "predeploy": "npm run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "org-chart",
+    "flow-graph"
+  ],
   "author": "Vijay Deepak",
   "license": "MIT",
   "devDependencies": {
