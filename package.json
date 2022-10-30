@@ -6,7 +6,9 @@
     "build": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +34,7 @@
     "@types/react": "^18.0.23",
     "babel-jest": "^29.2.2",
     "babel-loader": "^8.2.5",
+    "gh-pages": "^4.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.2.2",
     "postcss": "^8.4.18",
